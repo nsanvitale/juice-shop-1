@@ -12,7 +12,7 @@ module.exports = (sequelize, { STRING, INTEGER }) => {
       validate: {
         isInt: true,
         min: 1000000,
-        max: 9999999999
+        max: 9999999998
       }
     },
     zipCode: {
